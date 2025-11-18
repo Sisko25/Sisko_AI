@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-color-scheme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
     <title>FinKing AI - Sisko Capital</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Force dark mode immediately */
+        :root {
+            color-scheme: dark;
+        }
+        html {
+            background: #1f2120;
+        }
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+        }
+    </style>
 </head>
 <body>
     <div class="app-container">
@@ -22,13 +36,13 @@
                         <span class="nav-label">Chat</span>
                     </button>
                     <button class="nav-btn" data-page="about">
-                        <span class="nav-icon">ℹ️</span>
+                        <span class="nav-icon">💡</span>
                         <span class="nav-label">Intelligence</span>
                     </button>
                 </nav>
                 
                 <div class="ad-banner">
-                    <div class="ad-icon">📢</div>
+                    <div class="ad-icon">📊</div>
                     <div class="ad-title">Premium Analytics</div>
                     <div class="ad-description">Add your ad banner here</div>
                 </div>
@@ -50,7 +64,7 @@
                 </header>
                 
                 <div class="chat-messages" id="chat-messages">
-                    <!-- Messages will be inserted here dynamically -->
+                    <!-- Messages will appear here -->
                 </div>
                 
                 <div class="chat-input-container">
@@ -72,7 +86,7 @@
                 </div>
             </div>
             
-            <!-- Intelligence/About Page -->
+            <!-- Intelligence Page -->
             <div class="page" id="about-page">
                 <div class="about-container">
                     <header class="about-header">
@@ -81,17 +95,15 @@
                         <p class="company-tagline">Powering Market-Beating Strategies</p>
                     </header>
                     
-                    <!-- AI Platform Overview -->
+                    <!-- Proprietary AI Platform -->
                     <section class="about-section">
                         <h2 class="section-title">Our Proprietary AI Platform</h2>
                         <p class="section-text">
-                            Our proprietary AI platform leverages deep learning and quantitative analysis to generate 
-                            superior returns across all market conditions. Built on cutting-edge infrastructure for 
-                            maximum performance and reliability.
+                            Our proprietary AI platform leverages deep learning and quantitative analysis to generate superior returns across all market conditions. Built on cutting-edge infrastructure for maximum performance and reliability.
                         </p>
                     </section>
                     
-                    <!-- Technology Stack -->
+                    <!-- Advanced Technology Stack -->
                     <section class="about-section">
                         <h2 class="section-title">Advanced Technology Stack</h2>
                         <div class="metrics-grid">
@@ -117,10 +129,7 @@
                     <section class="about-section">
                         <h2 class="section-title">How Our AI-Powered System Works</h2>
                         <p class="section-text">
-                            Our platform employs an ensemble of specialized deep learning models, each trained on 
-                            different aspects of market behavior. These models generate independent signals that are 
-                            aggregated through a sophisticated orchestration layer, applying portfolio constraints and 
-                            risk limits before outputting executable orders.
+                            Our platform employs an ensemble of specialized deep learning models, each trained on different aspects of market behavior. These models generate independent signals that are aggregated through a sophisticated orchestration layer, applying portfolio constraints and risk limits before outputting executable orders.
                         </p>
                         <div class="metrics-grid" style="margin-top: 2rem;">
                             <div class="metric-card">
