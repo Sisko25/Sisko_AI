@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinKing AI - Sisko Capital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <div class="logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">FinKing</span>
+                </div>
+                
+                <nav class="navigation">
+                    <button class="nav-btn active" data-page="chat">
+                        <span class="nav-icon">💬</span>
+                        <span class="nav-label">Chat</span>
+                    </button>
+                    <button class="nav-btn" data-page="about">
+                        <span class="nav-icon">ℹ️</span>
+                        <span class="nav-label">About</span>
+                    </button>
+                </nav>
+                
+                <div class="ad-banner">
+                    <div class="ad-icon">📢</div>
+                    <div class="ad-title">Premium Analytics</div>
+                    <div class="ad-description">Add your ad banner here</div>
+                </div>
+                
+                <footer class="sidebar-footer">
+                    <div class="footer-copyright">© 2025 Sisko Capital</div>
+                    <div class="footer-address">177 Tanjong Rhu Road<br>Singapore</div>
+                </footer>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Chat Page -->
+            <div class="page active" id="chat-page">
+                <header class="chat-header">
+                    <h1 class="chat-title">FinKing AI</h1>
+                    <p class="chat-subtitle">AI-Powered Investment Analysis &amp; Market Intelligence</p>
+                </header>
+                
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Messages will be inserted here -->
+                </div>
+                
+                <div class="chat-input-container">
+                    <div class="input-wrapper">
+                        <input 
+                            type="text" 
+                            id="message-input" 
+                            class="message-input" 
+                            placeholder="Ask about stocks, crypto, markets..."
+                            autocomplete="off"
+                        >
+                        <button class="send-button" id="send-button">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- About Page -->
+            <div class="page" id="about-page">
+                <div class="about-container">
+                    <header class="about-header">
+                        <div class="company-logo">🚀</div>
+                        <h1 class="company-name">Sisko Capital</h1>
+                        <p class="company-tagline">Leading the Future of AI-Powered Investment</p>
+                    </header>
+                    
+                    <section class="about-section">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="section-text">
+                            Sisko Capital is a cutting-edge investment firm specializing in quantitative strategies 
+                            and AI-powered market analysis. We combine sophisticated algorithms with deep market 
+                            expertise to deliver superior returns for our clients.
+                        </p>
+                    </section>
+                    
+                    <section class="about-section">
+                        <h2 class="section-title">Mission</h2>
+                        <p class="section-text">
+                            To democratize access to institutional-grade investment intelligence through 
+                            advanced artificial intelligence and machine learning technologies.
+                        </p>
+                    </section>
+                    
+                    <section class="about-section">
+                        <h2 class="section-title">Vision</h2>
+                        <p class="section-text">
+                            To become the world's most trusted AI-powered investment platform, 
+                            empowering investors with real-time insights and data-driven strategies.
+                        </p>
+                    </section>
+                    
+                    <section class="about-section">
+                        <h2 class="section-title">Investment Strategy</h2>
+                        <p class="section-text">
+                            Our proprietary algorithms analyze millions of data points across global markets, 
+                            identifying opportunities in equities, cryptocurrencies, and alternative assets. 
+                            We employ advanced risk management techniques to optimize portfolio performance 
+                            while maintaining disciplined drawdown controls.
+                        </p>
+                    </section>
+                    
+                    <section class="metrics-section">
+                        <h2 class="section-title">Performance Metrics</h2>
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <div class="metric-icon">📈</div>
+                                <div class="metric-value">27%</div>
+                                <div class="metric-label">Annual Return</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon">⚡</div>
+                                <div class="metric-value">0.82</div>
+                                <div class="metric-label">Sharpe Ratio</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon">📊</div>
+                                <div class="metric-value">12%</div>
+                                <div class="metric-label">Volatility</div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="contact-section">
+                        <h2 class="section-title">Contact Information</h2>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <div class="contact-label">Email</div>
+                                    <div class="contact-value">sisko@duck.com</div>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <div class="contact-label">Address</div>
+                                    <div class="contact-value">177 Tanjong Rhu Road, Singapore</div>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🏢</div>
+                                <div class="contact-details">
+                                    <div class="contact-label">UEN</div>
+                                    <div class="contact-value">T25LL0878B</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
